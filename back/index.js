@@ -12,7 +12,9 @@ app.get('/movies',(req,res)=>{
         data: [
             'RRR',
             'Kantara',
-            'Ram Setu'
+            'Ram Setu',
+            'Predator',
+            'Three idiots'
         ]
     })
 })
