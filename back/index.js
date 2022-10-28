@@ -7,7 +7,15 @@ app.use(express.static('../front'));
 app.get('/',(req,res)=>{
     res.sendFile('index.html')
 })
-
+app.get('/movies',(req,res)=>{
+    res.json({
+        data: [
+            'RRR',
+            'Kantara',
+            'Ram Setu'
+        ]
+    })
+})
 app.listen(port,()=>{
     console.log(`server is running on port ${port}`);
 })
