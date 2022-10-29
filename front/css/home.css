@@ -49,11 +49,13 @@ body {
 }
 .card {
     width: 180px;
-    height: 220px;
+    height: 270px;
     background-color: #5F9DF7;
     margin: 5px 10px;
     overflow: hidden;
     position: relative;
+    border: 1px solid black;
+    cursor: pointer;
 }
 .fixed {
     position: fixed;
@@ -65,7 +67,6 @@ body {
     height: 200px;
 }
 .meta {
-    position: absolute;
     left: 0;
     bottom: 0;
 }
